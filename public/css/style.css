@@ -1,0 +1,45 @@
+footer {
+  text-align: center;
+
+
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.postLayout{
+width: 80%;
+
+}
+
+.actualPost{
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-style: groove;
+  background-color: #F9F9F9;
+}
+
+.margin {
+  margin:2rem;
+}
+
+.postTitle{
+  font-family: 'Roboto Slab';
+  font-weight: 500;
+}
+
+.postContent{
+  font-family: 'Roboto Slab';
+  font-weight: 200;
+}
+
+.standardBox{
+  margin: 3rem 5rem 5rem 3rem;
+}
+
+label{
+  font-size: 1.5rem;
+}

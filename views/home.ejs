@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+
+
+<div class="container postLayout">
+  <% posts.forEach((post) => { %>
+    <div class="margin">
+      <div class="container actualPost">
+        <h2 class="postTitle"><%= post.title %></h2>
+        <p class="postContent"><%= post.content.substring(0,200) %>... <a href="post/<%=post.title%>">Read more</a></p>
+
+      </div>
+    </div>
+
+
+  <% }) %>
+</div>
+
+
+
+
+
+
+
+<%- include("partials/footer") %>
