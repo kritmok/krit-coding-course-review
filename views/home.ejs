@@ -1,24 +1,15 @@
 <%- include("partials/header") %>
 
-
-<div class="container postLayout">
+<div class="container-fluid postLayout">
   <% posts.forEach((post) => { %>
-    <div class="margin">
-      <div class="container actualPost">
-        <h2 class="postTitle"><%= post.title %></h2>
+      <div class="container-fluid actualPost">
+        <h4 class="postTitle"><%= post.title %></h4>
         <p class="postContent"><%= post.content.substring(0,200) %>... <a href="post/<%=post.title%>">Read more</a></p>
-
       </div>
-    </div>
+
 
 
   <% }) %>
 </div>
-
-
-
-
-
-
 
 <%- include("partials/footer") %>
